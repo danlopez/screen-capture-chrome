@@ -1,0 +1,14 @@
+{
+  "name": "Practice Capture",
+  "description" : "Screen Capture for Practice",
+  "background": {
+    "persistent": false,
+    "scripts": ["extension.js"]
+  },
+  "externally_connectable": {
+    "matches": ["*://localhost/*"]
+  },
+  "permissions": ["desktopCapture"],
+  "manifest_version": 2,
+  "version": "0.0.1"
+}
