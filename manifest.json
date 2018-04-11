@@ -6,7 +6,7 @@
     "scripts": ["extension.js"]
   },
   "externally_connectable": {
-    "matches": ["*://localhost/*"]
+    "matches": ["*://localhost/*", "https://*.practice.xyz/*"]
   },
   "permissions": ["desktopCapture"],
   "manifest_version": 2,
